@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -69,3 +68,4 @@ st.dataframe(percent_change.round(2).rename("Percent Change (%)"))
 # Footer
 st.markdown("---")
 st.markdown(f"Built using Streamlit and yfinance  |  Last updated: {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
