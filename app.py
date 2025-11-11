@@ -59,7 +59,8 @@ st.dataframe(percent_change.round(2).rename("Percent Change (%)"))
 
 # Footer
 st.markdown("---")
-st.markdown(f"Built by Athharva Patil, using Streamlit and yfinance | Data as of {pd.Timestamp.now().strftime('%Y-%m-%d | GMT: %H+5:%M+30:%S')}")
+st.markdown(f"Built by Athharva Patil, using Streamlit and yfinance | Data as of {pd.Timestamp.now().strftime('%Y-%m-%d | GMT: %H:%M:%S')}")
+
 
 
 
