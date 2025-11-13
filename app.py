@@ -4,7 +4,7 @@ import plotly.express as px
 from fetch_data import get_data, commodities  
 
 st.set_page_config(page_title="Commodity Price Tracker", layout="wide")
-st.title("Commodities Tracker Dashboard")
+st.title("Commodity Price Tracker")
 st.markdown("Track and compare the latest commodity prices with charts and analytics. \nHover your cursor around charts to get detailed values")
 
 st.sidebar.header("Filters")
