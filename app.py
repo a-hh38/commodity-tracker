@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 from fetch_data import get_data, commodities  
 
-st.set_page_config(page_title="Commodities Tracker", layout="wide")
+st.set_page_config(page_title="Commodity Price Tracker", layout="wide")
 st.title("Commodities Tracker Dashboard")
 st.markdown("Track and compare the latest commodity prices with charts and analytics. \nHover your cursor around charts to get detailed values")
 
@@ -60,6 +60,7 @@ st.dataframe(percent_change.round(2).rename("Percent Change (%)"))
 # Footer
 st.markdown("---")
 st.markdown(f"Built by Athharva Patil, using Streamlit and yfinance | Data as of {pd.Timestamp.now().strftime('%Y-%m-%d | GMT: %H:%M:%S')}")
+
 
 
 
